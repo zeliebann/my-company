@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
+@import url("css/components/banner.css");
+@import url("css/components/container.css");
+@import url("css/components/avatar.css");
+@import url("css/components/card.css");
+
+@import url("images/background");
+
+body {
+	font-family: 'Slabo 27px', sans serif; 
+	font-size: 18px;
+	background-color: #c1dae6;
+	border-radius: 10%; 
+}
+h1, h2, h3 {
+	font-family: 'Slabo 27px', sans-serif; 
+	font-weight: bold;
+	margin: 40px; 
+	border-radius: 10%; 
+}
+a{
+	text-decoration: none;
+}
+
+p{
+	text-align: center;
+}
+
+
+.card-white {
+
+                background-color: #7bc6e8;
+
+                padding: 40px;
+
+                box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+
+                border-radius: 4px;
+
+                margin: 20px 0px;
+
+                text-align: center;
+
+}
+
+.card-blue {
+
+                background-color: #5C9DF3;
+
+                padding: 40px;
+
+                box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+
+                border-radius: 4px;
+
+                margin: 20px 0px;
+
+                text-align: center;
+
+}
+
+.card-yellow {
+
+                background-color: #8AC4FF;
+
+                padding: 40px;
+
+                box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+
+                border-radius: 4px;
+
+                margin: 20px 0px;
+
+                text-align: center;
+
+}
+
+
+.btn-yellow {
+	color: black;
+	background: #FDC657;
+	margin-bottom: 10px;
+	border-color: black; 
+	
+}
+
+.btn-orange {
+	color: black;
+	background: #B9DCFF;
+	margin-bottom: 10px; 
+	border-color: black; 
+	font-family: 'Slabo 27px', sans serif; 
+	margin: 20px;
+	text-transform: none;
+}
+
+.btn-blue {
+	color: black;
+	background: #91D2DF;
+	margin-bottom: 10px;
+	border-color: black; 
+	
+}
+.list-inline {
+
+                list-style: none;
+
+                padding: 20px;
+
+}
+
+ 
+
+.list-inline li {
+
+                display: inline;
+
+                padding: 10px;
+
+}
+
+ 
+
+.list-inline i {
+
+                font-size: 50px;
+
+                color: #5C9DF3;
+
+}
+
+ 
+
+.list-inline i:hover {
+
+                color: black;
+
+}
+
+.hello {
+
+                border-radius: 50px;
+
+                padding: 15px;
+
+                background: blue;
+
+                text-align: center;
+
+}
+
+.img-circle {
+
+               border-radius: 200%;
+               width: 300px; 
+ }
+
+ .card-yellow:hover{
+ 	box-shadow: 0px 10px 30px rgba(0,0,0,0.8)
+ }
+
+.card-blue:hover{
+ 	box-shadow: 0px 10px 30px rgba(0,0,0,0.8)
+ }
+
+ .card-white:hover{
+ 	box-shadow: 0px 10px 30px rgba(0,0,0,0.8)
+ }

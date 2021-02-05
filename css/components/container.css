@@ -1,0 +1,40 @@
+.container {
+	width: 500px;
+	margin: 100 auto;
+	border-radius: 20%; 
+
+}
+
+.container1{
+		background-color: black;
+		margin: 50px;
+		text-align: center; 
+		border-radius: 20%; 
+}
+
+.container2{
+	
+	background-color: #5C9DF3;
+	padding-bottom: 20px;
+	margin: 60px;
+	text-align: center; 
+	border-radius: 20%;
+}
+@media (max-width: 760px) {
+  /* For a screen < 760px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 520px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 340px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
